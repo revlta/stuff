@@ -99,10 +99,38 @@
 
 #1 овечкА; 2-3-4 овечкИ; 5-6-7-8-9- овечЕК
 #2 slogNaya
-n =  ['Ab', 'AC', 'CD', 'bd', 'te', 'ed']
-lst = []
-for i in n:
-  for j in i:
-    if not j in lst:
-      lst.append(j)
-print(lst)
+# n =  ['Ab', 'AC', 'CD', 'bd', 'te', 'ed']
+# lst = []
+# for i in n:
+#   for j in i:
+#     if not j in lst:
+#       lst.append(j)
+# print(lst)
+
+#4 10 24
+#1
+# text = input().split()
+# podhodit = [text[i] for i in range(len(text)) if text[i][0] == 'е' or text[i][0] == 'Е']
+# print(len(podhodit))
+#2
+# text = input()
+# print(text.count(':'), text.replace(':', '%'))
+#3
+# text = input()
+# print(text.count('.'), text.replace('.', ''))
+#4
+# from random import *
+# arr = [randint(-100, 100) for i in range(10)]
+# for i in range(len(arr) - 1):
+#   if arr[i] < 0 and arr[i + 1] < 0:
+#     print(f' {arr[i]} и {arr[i + 1]};', end='')
+#5
+# n = int(input())
+# arr = [int(input()) for i in range(n)]
+# print(min(arr), arr.index(min(arr)))
+#6
+# from random import *
+# arr = [randint(-100, 100) for i in range(8)]
+# arrnew = [abs(i * 2)  if i < 15 else i for i in arr]
+# print(arr, arrnew)
+
