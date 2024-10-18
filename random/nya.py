@@ -373,7 +373,7 @@
 #         break
 # if flag:
 #     print('офигеть симметрия')
-# 5
+# # 5
 # from random import randint
 # m, n = randint(2, 10), randint(2, 10)
 # arr = list()
@@ -389,16 +389,16 @@
 # print(f'максимальная сумма {max(summi.keys())} у строчки {summi.get(max(summi.keys()))}')
 # print(f'минимальная сумма {min(summi.keys())} у строчки {summi.get(min(summi.keys()))}')
 # 6
-from random import sample, randint
-m, n = randint(2, 10), randint(2, 10)
-arr = list()
-for i in range(n):
-    brr = sample(range(-30, 30), m)
-    arr.append(brr)
-print(arr)
-for i in arr:
-    if i[i.index(min(i))] % 2 == 0:
-        i[i.index(min(i))] = 0
-    else:
-        i[i.index(min(i))] = 1
-print(arr)
+# from random import sample, randint
+# m, n = randint(2, 10), randint(2, 10)
+# arr = list()
+# for i in range(n):
+#     brr = sample(range(-30, 30), m)
+#     arr.append(brr)
+# print(arr)
+# for i in arr:
+#     if i[i.index(min(i))] % 2 == 0:
+#         i[i.index(min(i))] = 0
+#     else:
+#         i[i.index(min(i))] = 1
+# print(arr)
