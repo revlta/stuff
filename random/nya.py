@@ -237,61 +237,168 @@
 # print(f'ищем в диапозоне {k} чисел, всего подходящих получилось {len(podhodit)}\n сами числа: {podhodit}')
 
 
-import matplotlib.pyplot as plt
-from matplotlib.ticker import *
-from random import *
+# import matplotlib.pyplot as plt
+# from matplotlib.ticker import *
+# from random import *
 
-centrx, centry, r = randint(-100, 100), randint(-100, 100), randint(1, 100)
-print(f'центр: ({centrx};{centry}), радиус = {r}')
-
-
-def pokaz():
-    x = [int(tochki[0][0]), int(tochki[1][0]), int(tochki[2][0])]
-    y = [int(tochki[0][1]), int(tochki[1][1]), int(tochki[2][1])]
-
-    fig = plt.figure()
-    axes = fig.gca()
-    axes.set_aspect('equal')
-
-    plt.grid(which='major', linewidth=1)
-    plt.grid(which='minor', color='grey', linewidth=0.5)
-
-    axes.xaxis.set_minor_locator(AutoLocator())
-    axes.yaxis.set_minor_locator(AutoLocator())
-
-    plt.tick_params(which='major', length=10, width=2)
-    plt.tick_params(which='minor', length=5, width=1)
-
-    plt.axhline(0, color="black", linewidth=1)
-    plt.axvline(0, color="black", linewidth=1)
-
-    plt.xlim(-120, 120)
-    plt.ylim(-120, 120)
-
-    circle = plt.Circle((centrx, centry), radius=r, fill=False)
-    axes.add_patch(circle)
-    circlecentre = plt.Circle(
-        (centrx, centry), radius=0.25, fill=True, color='r')
-    axes.add_patch(circlecentre)
-    plt.scatter(x, y)
-
-    plt.show()
+# centrx, centry, r = randint(-100, 100), randint(-100, 100), randint(1, 100)
+# print(f'центр: ({centrx};{centry}), радиус = {r}')
 
 
-def proverka(x):
-    if pow((int(x[0])-centrx), 2) + pow((int(x[1])-centry), 2) <= pow(r, 2):
-        return True
+# def pokaz():
+#     x = [int(tochki[0][0]), int(tochki[1][0]), int(tochki[2][0])]
+#     y = [int(tochki[0][1]), int(tochki[1][1]), int(tochki[2][1])]
+
+#     fig = plt.figure()
+#     axes = fig.gca()
+#     axes.set_aspect('equal')
+
+#     plt.grid(which='major', linewidth=1)
+#     plt.grid(which='minor', color='grey', linewidth=0.5)
+
+#     axes.xaxis.set_minor_locator(AutoLocator())
+#     axes.yaxis.set_minor_locator(AutoLocator())
+
+#     plt.tick_params(which='major', length=10, width=2)
+#     plt.tick_params(which='minor', length=5, width=1)
+
+#     plt.axhline(0, color="black", linewidth=1)
+#     plt.axvline(0, color="black", linewidth=1)
+
+#     plt.xlim(-120, 120)
+#     plt.ylim(-120, 120)
+
+#     circle = plt.Circle((centrx, centry), radius=r, fill=False)
+#     axes.add_patch(circle)
+#     circlecentre = plt.Circle(
+#         (centrx, centry), radius=0.25, fill=True, color='r')
+#     axes.add_patch(circlecentre)
+#     plt.scatter(x, y)
+
+#     plt.show()
+
+
+# def proverka(x):
+#     if pow((int(x[0])-centrx), 2) + pow((int(x[1])-centry), 2) <= pow(r, 2):
+#         return True
+#     else:
+#         return False
+
+
+# passed = []
+# print(f'введите ваши точки:')
+# tochki = [input().split() for i in range(3)]
+# for i in tochki:
+#     if proverka(i):
+#         passed.append(i)
+# print(f'{len(passed)} точек подошло, конкретнее: {
+#       passed}, получившаяся картинка:')
+
+# pokaz()
+
+# 18 10 24
+# Дан двумерный массив размером 3x3. Определить максимальное значение среди элементов третьего столбца массива; максимальное значение среди элементов второй строки массива. Вывести полученные значения.
+# Дан двумерный массив размером mxn. Сформировать новый массив заменив положительные элементы единицами, а отрицательные нулями. Вывести оба массива.
+# Дана целая квадратная матрица n-го порядка. Определить, является ли она магическим квадратом, т. е. такой матрицей, в которой суммы элементов во всех строках и столбцах одинаковы.
+# Определить, является ли заданная целая квадратная матрица n-го порядка симметричной (относительно главной диагонали).
+# Дана прямоугольная матрица. Найти строку с наибольшей и строку с наименьшей суммой элементов. Вывести на печать найденные строки и суммы их элементов.
+# Дана действительная матрица размером n х m, все элементы которой различны. В каждой строке выбирается элемент с наименьшим значением. Если число четное, то заменяется нулем, нечетное - единицей. Вывести на экран новую матрицу.
+
+# 1
+# from random import randint
+# arr = list()
+# for i in range(3):
+#     brr = list()
+#     for j in range(3):
+#         brr.append(randint(-10, 10))
+#     arr.append(brr)
+# print(arr)
+# print(max(arr[0][2], arr[1][2], arr[2][2]), max(arr[1]))
+# 2
+# from random import randint
+# m, n = randint(2, 10), randint(2, 10)
+# arr = list()
+# for i in range(m):
+#     brr = list()
+#     for j in range(n):
+#         brr.append(randint(-10, 10))
+#     arr.append(brr)
+# print(arr)
+# for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         if arr[i][j] > 0: arr[i][j] = 1
+#         else: arr[i][j] = 0
+# print(arr)
+# 3
+# from random import randint
+# n = randint(2, 10)
+# arr = list()
+# for i in range(n):
+#     brr = list()
+#     for j in range(n):
+#         brr.append(randint(-10, 10))
+#     arr.append(brr)
+# # n = 3
+# # arr = [[3] * 3] * 3
+# print(arr)
+# summa = set()
+# for i in range(n):
+#     summa.add(sum(arr[i]))
+#     summast = 0
+#     for j in range(n):
+#         summast += arr[i][j]
+#     summa.add(summast)
+# if len(summa) == 1: print('он магический') 
+# else: print('не')
+# 4
+# from random import randint
+# n = randint(2, 10)
+# arr = list()
+# for i in range(n):
+#     brr = list()
+#     for j in range(n):
+#         brr.append(randint(-10, 10))
+#     arr.append(brr)
+# # n = 3
+# # arr = [[3] * 3] * 3
+# print(arr)
+# flag = 1
+# for i in range(n):
+#     for j in range(n):
+#         if arr[i][j] != arr[j][i]:
+#             print('не')
+#             flag = 0
+#             break
+#     if flag == 0:
+#         break
+# if flag:
+#     print('офигеть симметрия')
+# 5
+# from random import randint
+# m, n = randint(2, 10), randint(2, 10)
+# arr = list()
+# for i in range(m):
+#     brr = list()
+#     for j in range(n):
+#         brr.append(randint(-10, 10))
+#     arr.append(brr)
+# print(arr)
+# summi = {}
+# for i in arr:
+#     summi.update({sum(i):i})
+# print(f'максимальная сумма {max(summi.keys())} у строчки {summi.get(max(summi.keys()))}')
+# print(f'минимальная сумма {min(summi.keys())} у строчки {summi.get(min(summi.keys()))}')
+# 6
+from random import sample, randint
+m, n = randint(2, 10), randint(2, 10)
+arr = list()
+for i in range(n):
+    brr = sample(range(-30, 30), m)
+    arr.append(brr)
+print(arr)
+for i in arr:
+    if i[i.index(min(i))] % 2 == 0:
+        i[i.index(min(i))] = 0
     else:
-        return False
-
-
-passed = []
-print(f'введите ваши точки:')
-tochki = [input().split() for i in range(3)]
-for i in tochki:
-    if proverka(i):
-        passed.append(i)
-print(f'{len(passed)} точек подошло, конкретнее: {
-      passed}, получившаяся картинка:')
-
-pokaz()
+        i[i.index(min(i))] = 1
+print(arr)
