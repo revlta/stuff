@@ -2,14 +2,18 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import *
 
 def obrabotkadannih():
+    dannie = dict()
     print(f'введите количество серий имезерений:')
     N = int(input())
     for i in range(N):
         print(f'введите количество самих имезерений:')
         n = int(input())
+        print(f'можете вводить, каждое измерение с новой строчки пж')
         vvod = [float(input().replace(',', '.')) for i in range(n)]
-        print(f'скопируйте')
         print(vvod)
+        print(f'название переменной?')
+        dannie.update({input():vvod})
+    return dannie
 
 obrabotkadannih()
 # fig, ax = plt.subplots(figsize=(8, 6))
