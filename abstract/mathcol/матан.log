@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.29)  21 OCT 2024 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.29)  23 OCT 2024 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,6 +478,36 @@ Underfull \hbox (badness 2119) in paragraph at lines 15--15
  \T2A/cmr/bx/n/10 геометрический смысл, запись в виде 
  []
 
+
+Underfull \hbox (badness 2173) in paragraph at lines 18--18
+ \T2A/cmr/bx/n/10 последовательности. Ограниченные и 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+ \T2A/cmr/bx/n/10 неограниченные последовательности. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+ [] []\T2A/cmr/bx/n/10 Определение предела 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+ \T2A/cmr/bx/n/10 последовательности, геометрический 
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 19--19
+ \T2A/cmr/bx/n/10 смысл. Сходящиеся и расходящиеся 
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 20--20
+ [][] []\T2A/cmr/m/n/10 Частные случаи определения предела 
+ []
+
 )
 \tf@toc=\write3
 \openout3 = `РјР°С‚Р°РЅ.toc'.
@@ -758,7 +788,7 @@ Underfull \hbox (badness 2057) in paragraph at lines 74--83
 \T2A/cmr/m/n/10 беспокойтесь, они полностью оправданы, вставьте
  []
 
-[2 <./cup.png>]
+[2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -796,12 +826,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--85
 \T2A/cmr/bx/n/14.4 критерий существования
  []
 
-<obraz.png, id=30, 205.36725pt x 190.91325pt>
+<obraz.png, id=29, 205.36725pt x 190.91325pt>
 File: obraz.png Graphic file (type png)
 <use obraz.png>
 Package pdftex.def Info: obraz.png  used on input line 90.
 (pdftex.def)             Requested size: 205.36674pt x 190.91278pt.
-<proobraz.png, id=31, 168.63pt x 170.13562pt>
+<proobraz.png, id=30, 168.63pt x 170.13562pt>
 File: proobraz.png Graphic file (type png)
 <use proobraz.png>
 Package pdftex.def Info: proobraz.png  used on input line 92.
@@ -894,7 +924,10 @@ Underfull \hbox (badness 2884) in paragraph at lines 86--101
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./dasuka.png> <./vichet.png> <./decart.png> <./obraz.png>]
+ [3 <./cup.png> <./dasuka.png> <./vichet.png> <./decart.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\T2A/cmr/bx/n/14.4 Конечные, бесконечные,
  []
@@ -945,9 +978,6 @@ Underfull \hbox (badness 1400) in paragraph at lines 103--108
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []\T2A/cmr/bx/n/14.4 Вещественные числа, их
  []
@@ -962,7 +992,7 @@ Underfull \hbox (badness 6859) in paragraph at lines 117--117
 \T2A/cmr/bx/n/14.4 Точные грани. Примеры.
  []
 
-[4 <./proobraz.png>]
+[4 <./obraz.png> <./proobraz.png>]
 Underfull \hbox (badness 3333) in paragraph at lines 149--155
 \T2A/cmr/m/n/10 выполняется неравенство $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 m$\T2A/cmr/m/n/10 , то число $\OML/cmm/m/it/10 m$
  []
@@ -1047,26 +1077,366 @@ File: lemmasegm.jpg Graphic file (type jpg)
 <use lemmasegm.jpg>
 Package pdftex.def Info: lemmasegm.jpg  used on input line 167.
 (pdftex.def)             Requested size: 251.07481pt x 160.30028pt.
-[6
 
- <./lemmasegm.jpg>] (РјР°С‚Р°РЅ.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 170--174
+
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 170--174
+\T2A/cmr/m/n/10 Пусть $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R$\T2A/cmr/m/n/10 . Интервал, содержащий точку
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 170--174
+\OML/cmm/m/it/10 a$\T2A/cmr/m/n/10 , называется \T2A/cmr/bx/n/10 окрестностью $\OML/cmm/m/it/10 a$\T2A/cmr/m/n/10 . Окрестности
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 170--174
+\T2A/cmr/m/n/10 же интервал $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 ; ^^V\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 [ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 - он называется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]\T2A/cmr/bx/n/12 Окрестности для разных
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 179--179
+[]\T2A/cmr/m/n/10 Пусть $\OML/cmm/m/it/10 " > \OT1/cmr/m/n/10 0$\T2A/cmr/m/n/10 . Интервал $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 "\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 [ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 "; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 181--182
+\T2A/cmr/m/n/10 Небольшая перебивочка на обьяснение некоторых
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 196--197
+[]\T2A/cmr/m/n/10 Пусть $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R$ \T2A/cmr/m/n/10 и $\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 0$\T2A/cmr/m/n/10 . Тогда для любой
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 196--197
+\T2A/cmr/m/n/10 окрестности $\OML/cmm/m/it/10 U\OT1/cmr/m/n/10 ([])$ \T2A/cmr/m/n/10 найдется окрестности V(a)
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 198--199
+\T2A/cmr/m/n/10 о том, что это будет спрашиваться - но, де-юре,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+[]\T2A/cmr/bx/n/14.4 Понятие последовательности,
+ []
+
+
+Overfull \hbox (11.1927pt too wide) in paragraph at lines 200--200
+\T2A/cmr/bx/n/14.4 монотонные последовательности.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T2A/cmr/bx/n/14.4 Ограниченные и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T2A/cmr/bx/n/14.4 неограниченные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 201--205
+\OML/cmm/m/it/10 x[] [] x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 называют n-ым (или общим) членом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+\T2A/cmr/m/n/10 последовательности, а саму последовательность
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 201--205
+\T2A/cmr/m/n/10 переменная, принимающие сколь угодно большие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - числовая последовательность,
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 201--205
+\OML/cmm/m/it/10 m \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 N$\T2A/cmr/m/n/10 . Обозначим за $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]$\T2A/cmr/m/n/10 . Тогда
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+\T2A/cmr/m/n/10 последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 y[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется (m-ым)
+ []
+
+[6 <./lemmasegm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 208--209
+\T2A/cmr/m/sl/10 ограниченной\T2A/cmr/m/n/10 , если она ограничена сверху и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+\T2A/cmr/m/sl/10 неограниченной\T2A/cmr/m/n/10 , если она не является
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 213--214
+\T2A/cmr/m/sl/10 возрастающей\T2A/cmr/m/n/10 , если $\OML/cmm/m/it/10 x[] < x[]$ \T2A/cmr/m/n/10 при любом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 214--215
+\T2A/cmr/m/sl/10 убывающей\T2A/cmr/m/n/10 , если $\OML/cmm/m/it/10 x[] > x[]$ \T2A/cmr/m/n/10 при любом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 215--216
+\T2A/cmr/m/sl/10 неубывающей\T2A/cmr/m/n/10 , если $\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 x[]$ \T2A/cmr/m/n/10 при любом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[]\T2A/cmr/m/n/10 Последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 называется
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 216--217
+\T2A/cmr/m/sl/10 невозрастающей\T2A/cmr/m/n/10 , если $\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/10 x[]$ \T2A/cmr/m/n/10 при любом
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 Последовательность называется \T2A/cmr/bx/n/10 монотонной\T2A/cmr/m/n/10 , если
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - числовая последовательность,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 а $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 n[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - возрастающая последовательность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 натуральных чисел. Обозначим $\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\OML/cmm/m/it/10 x[]$\T2A/cmr/m/n/10 . Тогда последовательность $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 y[]\OMS/cmsy/m/n/10 g[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 называется \T2A/cmr/bx/n/10 подпоследовательностю $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$\T2A/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 подпоследовательность получается из исходной
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 218--220
+\T2A/cmr/m/n/10 последовательности вычеркиванием каких-либо из
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]\T2A/cmr/bx/n/14.4 Определение предела
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T2A/cmr/bx/n/14.4 последовательности,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T2A/cmr/bx/n/14.4 геометрический смысл.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 221--221
+\T2A/cmr/bx/n/14.4 Сходящиеся и расходящиеся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T2A/cmr/bx/n/14.4 последовательности.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - числовая последовательность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 2 [] [ f1g$\T2A/cmr/m/n/10 . a называют \T2A/cmr/bx/n/10 пределом
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 222--224
+\T2A/cmr/bx/n/10 последовательности $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 при стремлении n
+ []
+
+<predelposl.png, id=53, 551.81157pt x 118.94438pt>
+File: predelposl.png Graphic file (type png)
+<use predelposl.png>
+Package pdftex.def Info: predelposl.png  used on input line 225.
+(pdftex.def)             Requested size: 251.07481pt x 54.11977pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--228
+\T2A/cmr/m/n/10 Для любой окрестности U(a) найдется номер
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 224--228
+\T2A/cmr/m/n/10 N (зависящий от U(a)) после которого члены
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--228
+\T2A/cmr/m/n/10 последовательности попадают внутрь этой
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 224--228
+\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 = [][] \OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ,$ \T2A/cmr/m/n/10 В любой окрестености точки
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 224--228
+\T2A/cmr/m/n/10 a содержаться все члены последовательности за
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]\T2A/cmr/bx/n/12 Частные случаи определения
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 230--230
+\U/msb/m/n/10 R$\T2A/cmr/m/n/10 . a называют пределом последовательности
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 231--231
+[]\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - числовая последовательность.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+\OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1$ \T2A/cmr/m/n/10 называют пределом последовательности
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 232--232
+[]\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - числовая последовательность.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
+\OMS/cmsy/m/n/10 ^^@1$ \T2A/cmr/m/n/10 называют пределом последовательности
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\T2A/cmr/m/n/10 И только заметила, но удивительно нигде не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\T2A/cmr/m/n/10 дано обьяснение тому, что такое \T2A/cmr/m/sl/10 сходящееся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\T2A/cmr/m/sl/10 последовательность\T2A/cmr/m/n/10 . Так вот, это та
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\T2A/cmr/m/n/10 Пусть $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 и $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 y[]\OMS/cmsy/m/n/10 g[]$ \T2A/cmr/m/n/10 - \T2A/cmr/m/sl/10 сходящиеся
+ []
+
+[7 <./predelposl.png>] [8
+
+] (РјР°С‚Р°РЅ.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4152 strings out of 474486
- 69109 string characters out of 5742339
- 1942542 words of memory out of 5000000
- 26389 multiletter control sequences out of 15000+600000
- 573282 words of font info for 77 fonts, out of 8000000 for 9000
+ 4168 strings out of 474486
+ 69421 string characters out of 5742339
+ 1943542 words of memory out of 5000000
+ 26404 multiletter control sequences out of 15000+600000
+ 573617 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,2334b,257s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on РјР°С‚Р°РЅ.pdf (6 pages, 649787 bytes).
+ <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\С‚Р°С€Р°\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/С‚Р°С€Р°/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on РјР°С‚Р°РЅ.pdf (8 pages, 710830 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 483 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
